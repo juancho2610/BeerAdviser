@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Beer Adviser</string>
     <string name="beer_prompt">Select your beer type</string>
-    <string name="find_beer">Find Adviser</string>
+    <string name="find_beer">Seleccione localidad</string>
     <string-array name="beer_types">
-    <item>Amber</item>>
-    <item>Blonde</item>>
-    <item>Brown</item>>
-    <item>Dark</item>>
+    <item>Kennedy</item>>
+    <item>CuidadBolivar</item>>
+    <item>Chapinero</item>>
+    <item>Suba</item>>
     </string-array>
 </resources>

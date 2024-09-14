@@ -12,17 +12,21 @@ public class BeerExpert {
                 brands.add("Corona");
                 brands.add("Bud Light");
                 break;
-            case "Amber":
-                brands.add("Jack Amber");
-                brands.add("Red Moose");
+            case "Kennedy":
+                brands.add("Parques");
+                brands.add("Zonas verdes");
                 break;
-            case "Brown":
-                brands.add("Brown Bear Beer");
-                brands.add("Bock");
+            case "CuidadBolivar":
+                brands.add("Parques");
+                brands.add("Zonas Recreativas");
                 break;
-            case "Dark":
-                brands.add("Guinness");
-                brands.add("Stout");
+            case "Chapinero":
+                brands.add("Museos");
+                brands.add("Zona Universitaria");
+                break;
+            case "Suba":
+                brands.add("Humedales");
+                brands.add("Zona Urbana");
                 break;
         }
         return brands;
