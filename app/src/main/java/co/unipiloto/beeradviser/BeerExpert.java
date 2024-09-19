@@ -8,9 +8,9 @@ public class BeerExpert {
     public List<String> getBrands(String color){
         List<String> brands = new ArrayList<>();
         switch (color){
-            case "Light":
-                brands.add("Corona");
-                brands.add("Bud Light");
+            case "Cuidad Salitre":
+                brands.add("Parques");
+                brands.add("Ciclorutas");
                 break;
             case "Kennedy":
                 brands.add("Parques");
@@ -28,6 +28,11 @@ public class BeerExpert {
                 brands.add("Humedales");
                 brands.add("Zona Urbana");
                 break;
+            case "usaquen":
+                brands.add("Humedales");
+                brands.add("Zona Urbana");
+                break;
+
         }
         return brands;
     }

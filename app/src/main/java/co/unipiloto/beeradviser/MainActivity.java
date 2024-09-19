@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
         // Obtener referencia al spinner
         Spinner beerType = findViewById(R.id.beer_type);
 
-        // Obtener el tipo de cerveza seleccionado
+        // Obtener el tipo de localidad seleccionado
         String beerChoice = String.valueOf(beerType.getSelectedItem());
 
-        // Obtener la lista de recomendaciones de cervezas
+        // Obtener la lista de actividades por localidad
         List<String> brandsList = expert.getBrands(beerChoice);
 
         // Convertir la lista a una cadena de texto
